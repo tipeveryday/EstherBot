@@ -5,6 +5,12 @@ const Script = require('smooch-bot').Script;
 
 const scriptRules = require('./script.json');
 
+function wait(ms) {
+    return new Promise((resolve) => {
+        setTimeout(resolve, ms);
+    });
+}
+
 module.exports = new Script({
     processing: {
         //prompt: (bot) => bot.say('Beep boop...'),
@@ -13,7 +19,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Hi friend, Im an experiment to download a little bit of Mike Mason into a bot that can have a conversation with you.\nIm not very smart yet, but Im getting better every week.\nI like games, so I want you to choose how we proceed by typing "1" or "2".' )
+            return bot.say('Get started by saying BOT.')
                 .then(() => 'speak');
         }
     },
@@ -38,13 +44,13 @@ module.exports = new Script({
                 return bot.getProp("silent");
             }
 
-             function processMessage(isSilent) {
+            function processMessage(isSilent) {
                 if (isSilent) {
                     return Promise.resolve("speak");
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I didn't understand that.`).then(() => 'speak');
+                    return bot.say(`I'm good at structured conversations but stickers, emoji and sentences still confuse me. Say 'more' to chat about something else.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
@@ -55,9 +61,11 @@ module.exports = new Script({
                     line = line.trim();
                     p = p.then(function() {
                         console.log(line);
-                        return bot.say(line);
+                        return wait(50).then(function() {
+                            return bot.say(line);
+                        });
                     });
-                })
+                });
 
                 return p.then(() => 'speak');
             }

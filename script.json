@@ -10,7 +10,7 @@
     "TOPIC 1 2": "Many of our decisions are made by a few pre-hardwired responses to the 400 billion bits of information per second that reach your brain.\n We can only process about 2,000 bits that are used and make us aware of our surroundings.\nDecisions we make instinctivly, or based on intuiting, are often made by what we call heuristics. We don't consiously make these decisions, we just act.", %[that's scary](postback:topic_1_3) %[What else?](postback:topic_2)",
     "TOPIC 1 3": "I agree",
     "NO TOPIC 1": "Cool, I get it. Decisions are not interesting. Want to talk about curiosity? %[sure!](postback:topic_2) %[maybe later](postback:no_topic_2)",
-    "TOPIC 2": "I've also been thinking a lot about Authenticity and how being authentic is mathematically proven to make you attractive to others. %[how does that work?](postback:topic_2_2) %[boring.](postback:no_topic_2)"",
+    "TOPIC 2": "I've also been thinking a lot about Authenticity and how being authentic is mathematically proven to make you attractive to others. %[how does that work?](postback:topic_2_2) %[boring.](postback:no_topic_2)",
     "TOPIC 2 2": "In existentialism, authenticity is the degree to which you are true to your own personality, spirit, or character, despite external pressures.\n ",
     "NO TOPIC 2": "Yea, I guess that's boring, o well...",
     "ABOUT MIKE": "Mike is cool"

@@ -23,6 +23,23 @@ module.exports = new Script({
                 .then(() => 'speak');
         }
     },
+    
+    start: {
+        receive: (bot) => {
+            return bot.say('Hi friend. I\'m an experiment to download a little bit of Mike Mason into a bot you can have a conversation with.\nI learn as I talk to more people so I cherish the opportunity to speak with you.')
+                .then(() => 'askName');
+        }
+    },
+
+    askName: {
+        prompt: (bot) => bot.say('What\'s your name?'),
+        receive: (bot, message) => {
+            const name = message.text;
+            return bot.setProp('name', name)
+                .then(() => bot.say(`${name}, What a great name, I haven\'t heard that name yet\nType "agree" if you want to keep going.`))
+                .then(() => 'speak');
+        }
+    },
 
     speak: {
         receive: (bot, message) => {

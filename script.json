@@ -1,16 +1,8 @@
 {
     "candyman": "Phewf, I thought you may have been a bot, I hate those things!\n Now that I know you're real, allow me to introduce myself. I'm an experiment to download a little bit of Mike Mason into a bot you can have a conversation with.\n![mike](https://raw.githubusercontent.com/tipeveryday/EstherBot/master/img/7zQZYyJr.jpg)\nStart by asking me about something. %[Tell me about Mike](postback:here_for_the_bot) %[Tell me about decisions](postback:learn_about_esther) %[Tell me about Curiousity](postback:here_for_the_bot) %[Tell me about Change Agents](postback:here_for_the_bot) %[I'd rather just talk to mike](postback:random_fact)",
-
     "HELLO": "Hey, I'm so glad you set EstherBot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter)",
-
     "TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
-
     "I LOVE YOU": "Awh, shucks! I love you too!",
-
     "CONNECT ME": "",
-
     "DISCONNECT": "Roger that, EstherBot is back."
-
-    "I LOVE YOU"
-
 }

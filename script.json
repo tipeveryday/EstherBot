@@ -1,10 +1,10 @@
 {
-    "1": "Most people pick 1, the truth is, it doesn't matter what you type, we will still talk about the same things. I just needed you to start things up.\nI'm glad we're getting a chance to talk. What do you want to talk about first? %[Tell me about Mike](postback:about_mike) %[What has Mike been thinking about recently?](postback:topic_1)",
-    "2": "Most people pick 1, you must be special. The truth is, it doesn't matter what you type, we will still talk about the same things. I just needed you to start things up.\nI'm glad we're getting a chance to talk. What do you want to talk about? %[Tell me about Mike](postback:about_mike) %[What has Mike been thinking about recently?](postback:topic_1)",
+    "1": "Most people pick 1, the truth is, it doesn't matter what you type, we will still talk about the same things. I just needed you to start things up.\nI'm glad we're getting a chance to talk. What do you want to talk about first? %[Tell me about Mike](postback:about_mike) %[What has Mike been thinking about recently?](postback:TOPIC1)",
+    "2": "Most people pick 1, you must be special. The truth is, it doesn't matter what you type, we will still talk about the same things. I just needed you to start things up.\nI'm glad we're getting a chance to talk. What do you want to talk about? %[Tell me about Mike](postback:about_mike) %[What has Mike been thinking about recently?](postback:TOPIC1)",
     "HELLO": "Hey, I'm so glad you set Mikebot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter)",
     "TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "",
-    "DISCONNECT": "Roger that, MikeBot is back.",
-    "topic_1": "I've been thinking alot about decisions, how I make them, and that decisions make me who I am, so it's mind altering to ponder this topic in detail when you discover that many of your decisions aren't made by 'you'"
+    "DISCONNECT": "Roger that, MikeBot is back."
+    "TOPIC1": "I've been thinking alot about decisions, how I make them, and that decisions make me who I am, so it's mind altering to ponder this topic in detail when you discover that many of your decisions aren't made by "you""
 }

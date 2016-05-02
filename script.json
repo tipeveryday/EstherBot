@@ -1,10 +1,10 @@
 {
-    "candyman": "Phewf, I thought you may have been a bot, I hate those things!\nI’m the personal bot of Esther, a Product Marketer from San Francisco.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
-    "1": "Most people pick 1, the truth is, it doesn't matter what you type, we will still talk about the same things. I just needed you to start things up.\nI'm glad we're getting a chance to talk. What do you want to talk about? %[tell me about Mike](postback:about_mike) %[What has Mike been thinking about?](postback:topic_1)",
-    "2": "Most people pick 1, you must be special. The truth is, it doesn't matter what you type, we will still talk about the same things. I just needed you to start things up.\nI'm glad we're getting a chance to talk. What do you want to talk about? %[tell me about Mike](postback:about_mike) %[What has Mike been thinking about?](postback:topic_1)",
+    "1": "Most people pick 1, the truth is, it doesn't matter what you type, we will still talk about the same things. I just needed you to start things up.\nI'm glad we're getting a chance to talk. What do you want to talk about first? %[Tell me about Mike](postback:about_mike) %[What has Mike been thinking about recently?](postback:topic_1)",
+    "2": "Most people pick 1, you must be special. The truth is, it doesn't matter what you type, we will still talk about the same things. I just needed you to start things up.\nI'm glad we're getting a chance to talk. What do you want to talk about? %[Tell me about Mike](postback:about_mike) %[What has Mike been thinking about recently?](postback:topic_1)",
     "HELLO": "Hey, I'm so glad you set Mikebot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter)",
     "TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, MikeBot is back."
+    "topic_1": "I've been thinking alot about decisions, how I make them, and that decisions make me who I am, so it's mind altering to ponder this topic in detail when you discover that many of your decisions aren't made by "you""
 }

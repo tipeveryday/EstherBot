@@ -7,7 +7,7 @@
     "ANOTHER FACT":"Half of all humans who have ever lived, died from malaria.",
     "BLUE PILL": "Okay, Goodbye for now.",
     "NO THANKS":"Okay, Goodbye for now.",
-    "RED PILL": "Good choice\n![applause](https://raw.githubusercontent.com/tipeveryday/MikeBot/master/img/applause.gif)\nThe game was a simple filter for what's to come. I want to talk to you about the things I've been thinking about recently./n What should I tell you about? %[Decisions](postback:decisions) %[Authenticity](postback:authenticity) %[Curiosity](postback:curiosity)",
+    "RED PILL": "Good choice\n![applause](https://raw.githubusercontent.com/tipeveryday/MikeBot/master/img/applause.gif)\nThe game was a simple filter for what's to come. I want to talk to you about the things I've been thinking about recently./nWhat should I tell you about? %[Decisions](postback:decisions) %[Authenticity](postback:authenticity) %[Curiosity](postback:curiosity)",
     "I LOVE YOU": "I see that you use that word sparingly 😊 !",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, MikeBot is back.",

@@ -12,7 +12,7 @@
     "CONNECT ME":"",
     "DISCONNECT":"Roger that, MikeBot is back.",
     "DECISIONS":"I've been thinking alot about decisions and how I make them.\nDecisions make me who I am, so it's mind altering to ponder this topic in detail when you discover that many of your decisions aren't made by 'you' %[Meh..](postback:no_topic_1) %[Interesting, tell me more](postback:interesting_tell_me_more)",
-    "INTERESTING, TELL ME MORE":"Many of our decisions are made by a few pre-hardwired responses to the 400 billion bits of information per second that reach your brain.\n We can only process about 2,000 bits that are used and make us aware of our surroundings.\nDecisions we make instinctivly, or based on intuiting, are often made by what we call heuristics. We don't consiously make these decisions, we just act. %[that's scary](postback:that_scary) %[What else?](postback:what_else)",
+    "INTERESTING, TELL ME MORE":"Many of our decisions are made by a few pre-hardwired responses to the 400 billion bits of information per second that reach your brain.\n We can only process about 2,000 bits that are used to make us aware of our surroundings.\nDecisions we make instinctivly, or based on intuition, are often made by what we call heuristics. We don't consiously make these decisions, we just act. %[that's scary](postback:that_scary) %[What else?](postback:what_else)",
     "THAT'S SCARY":"I agree %[What else?](postback:what_else)",
     "MEH..":"Cool, I get it. Decisions are not interesting. Want to talk about authenticity? %[sure!](postback:sure) %[maybe later](postback:maybe_later)",
     "WHAT ELSE?":"Can I tell you about authenticity? %[sure!](postback:sure) %[maybe later](postback:maybe_later)",

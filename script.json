@@ -3,8 +3,8 @@
     "PLAY GAME":"Okay, this game is simple. It involves a choice. Pick a pill:\n![blue](https://github.com/tipeveryday/MikeBot/blob/master/img/blue.gif)\nTake the blue pill and the story ends, I shut down and wait for someone else to come talk to me.\n![red](https://github.com/tipeveryday/MikeBot/blob/master/img/red.gif)/nTake the red pill, and we'll keep talking and see how far this journey goes. %[Blue pill](postback:blue_pill) %[Red pill](postback:red_pill)",
     "NO GAME":"Okay ${name}, that's fine, games aren't for everyone. Do you want me to tell you random fact? %[Random Fact](postback:random_fact) %[No fact](postback:no_fact)",
     "RANDOM FACT":"In 1903 the Wright brothers flew for 59 seconds.\n![wright](https://github.com/tipeveryday/MikeBot/blob/master/img/wrightbrothers.gif)\n38 years later the Japanese bombed Pearl Harbor.\n28 years after that, we landed on the moon. %[Another Fact](postback:another_fact) %[](postback:about_mike)",
-    "NO FACT":"Okay 😄, What's your favorite color?"
-    "ANOTHER FACT":"Half of all humans who have ever lived, died from malaria."
+    "NO FACT":"Okay 😄, What's your favorite color?",
+    "ANOTHER FACT":"Half of all humans who have ever lived, died from malaria.",
     "BLUE PILL": "Okay ${name}, Goodbye for now.",
     "NO THANKS":"Okay ${name}, Goodbye for now.",
     "RED PILL": "Good choice ${name}\n![applause](https://github.com/tipeveryday/MikeBot/blob/master/img/applause.gif)\nThe game was a simple filter for what's to come. I want to talk to you about the things I've been thinking about recently./n What should I tell you about? %[Decisions](postback:decisions) %[Authenticity](postback:authenticity) %[Curiosity](postback:curiosity)",

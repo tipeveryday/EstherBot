@@ -17,6 +17,7 @@ module.exports = new Script({
         receive: () => 'processing'
     },
     
+
     start: {
         receive: (bot) => {
             return bot.say('Hi friend. I\'m an experiment to download a little bit of Mike Mason into a bot you can have a conversation with.\nI learn as I talk to more people so I cherish the opportunity to speak with you.')
